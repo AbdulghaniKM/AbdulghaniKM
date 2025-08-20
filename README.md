@@ -31,4 +31,4 @@
 
 ---
 
-💬 Always down to chat about Vue, Rust, or cool side projects.  
+💬 Always down to chat about anything!
