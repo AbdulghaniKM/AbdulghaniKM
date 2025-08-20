@@ -1,16 +1,34 @@
-## Hi there 👋
+# Hey, I’m Abdulghani Khalid! 👋  
 
-<!--
-**AbdulghaniKM/AbdulghaniKM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 **Frontend Developer | Vue & Nuxt | Senior Student**  
 
-Here are some ideas to get you started:
+- 🎓 Computer science student. (nerd alert 🤓).  
+- 💻 Vue.js & Nuxt 3 are my main playgrounds, with TypeScript, Pinia and Tailwind in the mix.  
+- 📖 I love mixing coding with self-help reads and productivity hacks.  
+- 🎮 Sometimes you’ll catch me surviving in **Minecraft**.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🔧 Tech Stack  
+
+**Frontend**: Vue.js, Nuxt 3, TypeScript, TailwindCSS, Pinia  
+**Backend (still learning)**: NestJS, PostgreSQL  
+**Others**: Rust, Flutter, Python.  
+
+---
+
+## 📊 GitHub Stats  
+
+| Stats | Top Languages |
+|-------|---------------|
+| ![Stats](https://github-readme-stats.vercel.app/api?username=AbdulghaniKM&show_icons=true&theme=tokyonight) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulghaniKM&layout=compact&theme=tokyonight) |
+
+---
+
+## ⚡ Fun Facts  
+- ✨ Started coding journey early (April 2024).    
+- ✨ Believe in “**from zero to everything**” — small sparks can grow into big builds.  
+
+---
+
+💬 Always down to chat about Vue, Rust, or cool side projects.  
