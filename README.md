@@ -1,8 +1,8 @@
 # Hey, I’m Abdulghani Khalid! 👋  
 
-🚀 **Frontend Developer | Vue & Nuxt | Senior Student**  
+🚀 **Frontend Developer | Vue & Nuxt | Fresh Graduate**  
 
-- 🎓 Computer science student. (nerd alert 🤓).  
+- 🎓 Computer Science.  
 - 💻 Vue.js & Nuxt 3 are my main playgrounds, with TypeScript, Pinia and Tailwind in the mix.  
 - 📖 I love mixing coding with self-help reads and productivity hacks.  
 - 🎮 Sometimes you’ll catch me surviving in **Minecraft**.  
