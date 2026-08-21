@@ -11,7 +11,7 @@
 
 ## 🔧 Tech Stack  
 
-**Frontend**: Vue.js, Nuxt 3, TypeScript, TailwindCSS, Pinia  
+**Frontend**: Vue.js, Nuxt 3, TypeScript, TailwindCSS, React, Next.js
 **Backend (still learning)**: NestJS, PostgreSQL  
 **Others**: Rust, Flutter, Python.  
 
