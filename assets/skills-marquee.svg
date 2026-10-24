@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="skills.sh: Vue, Nuxt, TypeScript, Tailwind CSS, React, Next.js, NestJS, PostgreSQL, C#, Python and more">
+  <defs>
+    <style>.mono{font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace} .blink{animation:b 1s steps(1) infinite} @keyframes b{50%{opacity:0}}</style>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a0a0a"/><stop offset=".08" stop-color="#0a0a0a" stop-opacity="0"/>
+      <stop offset=".92" stop-color="#0a0a0a" stop-opacity="0"/><stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="150" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+  <rect width="1200" height="150" fill="#0a0a0a"/>
+  <text class="mono" x="24" y="28" font-size="12" fill="#737373"><tspan fill="#a3e635">●</tspan> skills.sh — running   <tspan fill="#facc15">$</tspan> ./skills.sh --loop</text>
+  <line x1="0" y1="40" x2="1200" y2="40" stroke="#262626"/>
+  <g style="animation:m0 28s linear infinite">
+    <text class="mono" x="0" y="62" font-size="17" fill="#fafafa" textLength="1400" lengthAdjust="spacing">Vue  ·  Nuxt  ·  TypeScript  ·  Tailwind CSS  ·  Pinia  ·  React  ·  Next.js  ·  Vite  ·  DX  ·  REST APIs  ·  WebSockets  ·  </text>
+    <text class="mono" x="1400" y="62" font-size="17" fill="#fafafa" textLength="1400" lengthAdjust="spacing">Vue  ·  Nuxt  ·  TypeScript  ·  Tailwind CSS  ·  Pinia  ·  React  ·  Next.js  ·  Vite  ·  DX  ·  REST APIs  ·  WebSockets  ·  </text>
+  </g>
+  <style>@keyframes m0{from{transform:translateX(0px)}to{transform:translateX(-1400px)}}</style>
+  <g style="animation:m1 34s linear infinite">
+    <text class="mono" x="0" y="106" font-size="17" fill="#a3e635" textLength="1400" lengthAdjust="spacing">NestJS  ·  PostgreSQL  ·  C#  ·  Server Management  ·  Python  ·  Flask  ·  PHP  ·  SQL  ·  Rust  ·  Flutter  ·  Backend Development  ·  </text>
+    <text class="mono" x="1400" y="106" font-size="17" fill="#a3e635" textLength="1400" lengthAdjust="spacing">NestJS  ·  PostgreSQL  ·  C#  ·  Server Management  ·  Python  ·  Flask  ·  PHP  ·  SQL  ·  Rust  ·  Flutter  ·  Backend Development  ·  </text>
+  </g>
+  <style>@keyframes m1{from{transform:translateX(-1400px)}to{transform:translateX(0px)}}</style>
+  <rect width="1200" height="150" fill="url(#fade)"/>
+  <rect class="blink" x="24" y="128" width="8" height="12" fill="#facc15"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="149" rx="14" fill="none" stroke="#262626"/>
+</svg>

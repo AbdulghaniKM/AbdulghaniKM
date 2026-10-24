@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Build Interfaces. Ship Fast. Sleep Later.">
+  <defs>
+    <filter id="g" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .serif{font-family:Fraunces,'Iowan Old Style','Palatino Linotype',Georgia,'Times New Roman',serif} .mono{font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .w{opacity:.25;animation:on 6s infinite}
+      .w2{animation-delay:1s} .w3{animation-delay:2s}
+      @keyframes on{0%,8%{opacity:.25;fill:#525252}12%,60%{opacity:1;fill:#facc15}70%,100%{opacity:.25;fill:#525252}}
+    </style>
+  </defs>
+  <rect width="1200" height="110" rx="14" fill="#0a0a0a"/>
+  <rect x=".5" y=".5" width="1199" height="109" rx="14" fill="none" stroke="#262626"/>
+  <text class="serif" x="600" y="64" font-size="36" font-style="italic" text-anchor="middle" filter="url(#g)">
+    <tspan class="w">Build Interfaces.</tspan><tspan dx="18" class="w w2">Ship Fast.</tspan><tspan dx="18" class="w w3">Sleep Later.</tspan>
+  </text>
+  <text class="mono" x="600" y="92" font-size="12" fill="#525252" text-anchor="middle">© 2026 ghani-code · built with vue, nuxt &amp; too much coffee</text>
+</svg>

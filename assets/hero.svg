@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
+  <title id="t">ghani-code — pixel-perfect digital experiences</title>
+  <desc id="d">Abdulghani Khalid, frontend developer in Baghdad. Vue, Nuxt, TypeScript.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.18" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#facc15" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.92" cy="1" r="0.55">
+      <stop offset="0" stop-color="#a3e635" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#a3e635" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="440" rx="18"/></clipPath>
+    <clipPath id="l1"><rect x="700" y="170" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="0.6s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;60;120;180;240;300;360;440"/></rect></clipPath>
+    <clipPath id="l2"><rect x="700" y="204" height="24" width="0"><animate attributeName="width" begin="1.6s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;60;120;180;240;300;360;440"/></rect></clipPath>
+    <clipPath id="l3"><rect x="700" y="238" height="24" width="0"><animate attributeName="width" begin="2.6s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;60;120;180;240;300;360;440"/></rect></clipPath>
+    <clipPath id="l4"><rect x="700" y="272" height="24" width="0"><animate attributeName="width" begin="3.6s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;60;120;180;240;300;360;440"/></rect></clipPath>
+    <clipPath id="l5"><rect x="700" y="318" height="24" width="0"><animate attributeName="width" begin="4.7s" dur="1.1s" fill="freeze" calcMode="discrete" values="0;55;110;165;220;275;330;385;440"/></rect></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .serif{font-family:Fraunces,'Iowan Old Style','Palatino Linotype',Georgia,'Times New Roman',serif}
+      .sans{font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+      .rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{animation:pulse 1.8s ease-in-out infinite;transform-origin:1068px 136px;transform-box:view-box}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+      .scan{animation:scan 6s linear infinite}
+      @keyframes scan{from{transform:translateY(-60px)}to{transform:translateY(460px)}}
+      .flicker{animation:flicker 5s linear infinite}
+      @keyframes flicker{0%,18%,22%,62%,64%,100%{opacity:1}20%,63%{opacity:.45}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="440" fill="#0a0a0a"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+    <rect width="1200" height="440" fill="url(#glow)"/>
+    <rect width="1200" height="440" fill="url(#glow2)"/>
+    <rect class="scan" x="0" y="0" width="1200" height="60" fill="#facc15" opacity="0.025"/>
+
+    <!-- top bar -->
+    <g class="mono" font-size="13">
+      <rect x="48" y="34" width="10" height="10" rx="2" fill="#facc15" filter="url(#neon)"/>
+      <text x="68" y="44" fill="#fafafa" font-weight="600">ghani-code</text>
+      <text x="1152" y="44" fill="#737373" text-anchor="end">
+        <tspan fill="#facc15">01</tspan> hero   <tspan fill="#facc15">02</tspan> about   <tspan fill="#facc15">03</tspan> skills   <tspan fill="#facc15">04</tspan> work   <tspan fill="#facc15">05</tspan> contact
+      </text>
+      <line x1="48" y1="66" x2="1152" y2="66" stroke="#262626"/>
+    </g>
+
+    <!-- headline -->
+    <g class="rise" style="animation-delay:.05s">
+      <text x="60" y="122" class="mono" font-size="14" fill="#facc15" letter-spacing="1">01 / FRONTEND DEVELOPER · BAGHDAD, IQ</text>
+    </g>
+    <g class="rise" style="animation-delay:.2s">
+      <text x="56" y="190" class="serif" font-size="62" font-weight="600" fill="#fafafa" letter-spacing="-1.5">pixel-perfect</text>
+    </g>
+    <g class="rise" style="animation-delay:.35s">
+      <text x="56" y="254" class="serif" font-size="62" font-weight="600" fill="#fafafa" letter-spacing="-1.5">digital experiences.</text>
+    </g>
+    <g class="rise" style="animation-delay:.55s">
+      <text x="58" y="300" class="serif flicker" font-size="30" font-style="italic" fill="#facc15" filter="url(#neon)">the interface is the product.</text>
+    </g>
+    <g class="rise sans" style="animation-delay:.75s" font-size="16" fill="#a3a3a3">
+      <text x="60" y="346">2+ years shipping government dashboards, product UIs</text>
+      <text x="60" y="370">and agency builds across Iraq. Vue &amp; Nuxt at heart.</text>
+    </g>
+
+    <!-- terminal -->
+    <g class="rise" style="animation-delay:.3s">
+      <rect x="676" y="110" width="476" height="272" rx="14" fill="#111111" stroke="#2a2a2a"/>
+      <path d="M676 124a14 14 0 0 1 14-14h448a14 14 0 0 1 14 14v28H676z" fill="#161616"/>
+      <line x1="676" y1="152" x2="1152" y2="152" stroke="#2a2a2a"/>
+      <circle cx="698" cy="131" r="5.5" fill="#3f3f46"/>
+      <circle cx="716" cy="131" r="5.5" fill="#3f3f46"/>
+      <circle cx="734" cy="131" r="5.5" fill="#facc15"/>
+      <text x="914" y="136" class="mono" font-size="13" fill="#a3a3a3" text-anchor="middle">now-playing.yml</text>
+      <g class="pulse"><circle cx="1068" cy="131" r="4" fill="#a3e635" filter="url(#neon)"/></g>
+      <text x="1080" y="136" class="mono" font-size="12" fill="#a3e635">live</text>
+
+      <g class="mono" font-size="15">
+        <text x="700" y="188" clip-path="url(#l1)"><tspan fill="#facc15">role:</tspan><tspan fill="#fafafa"> Frontend Developer</tspan></text>
+        <text x="700" y="222" clip-path="url(#l2)"><tspan fill="#facc15">stack:</tspan><tspan fill="#fafafa"> Vue · Nuxt · TypeScript</tspan></text>
+        <text x="700" y="256" clip-path="url(#l3)"><tspan fill="#facc15">learning:</tspan><tspan fill="#a3e635"> backend dev · server mgmt</tspan></text>
+        <text x="700" y="290" clip-path="url(#l4)"><tspan fill="#facc15">location:</tspan><tspan fill="#fafafa"> Baghdad, Iraq · GMT+3</tspan></text>
+        <text x="700" y="336" clip-path="url(#l5)" fill="#737373" font-style="italic"># clarity is a design decision.</text>
+        <rect class="blink" x="700" y="350" width="10" height="18" fill="#facc15"/>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="439" rx="18" fill="none" stroke="#262626"/>
+</svg>
