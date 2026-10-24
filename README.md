@@ -190,19 +190,12 @@ Studio site for a Baghdad software team: animated ribbon hero, filterable case-s
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbdulghaniKM&bg_color=0a0a0a&color=a3a3a3&title_color=facc15&line=facc15&point=a3e635&area=true&area_color=facc15&hide_border=true&radius=14&custom_title=~/ghani-code/commits%20%E2%80%94%20last%2031%20days" width="100%" alt="contribution activity graph" />
-</p>
-
-<!-- contribution snake: re-enable once GitHub Actions can run on this account
-     (run the "generate contribution snake" workflow, then restore this block)
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/output/snake-light.svg" />
-    <img alt="contribution snake eating my commits" src="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/output/snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/main/assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/main/assets/snake-light.svg" />
+    <img alt="contribution snake eating my commits" src="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/main/assets/snake-dark.svg" width="100%" />
   </picture>
 </p>
--->
 
 <br />
 
