@@ -190,11 +190,17 @@ Studio site for a Baghdad software team: animated ribbon hero, filterable case-s
 </p>
 
 <p align="center">
+  <a href="https://ghani-code.vercel.app/?play=snake" title="Play Commit Snake">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/main/assets/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/main/assets/snake-light.svg" />
     <img alt="contribution snake eating my commits" src="https://raw.githubusercontent.com/AbdulghaniKM/AbdulghaniKM/main/assets/snake-dark.svg" width="100%" />
   </picture>
+  </a>
+  <br />
+  <a href="https://ghani-code.vercel.app/?play=snake"><img src="./assets/play-snake.svg" width="260" alt="▶ Play Commit Snake" /></a>
+  <br />
+  <sub>the snake is hungry. eat a year of my commits →</sub>
 </p>
 
 <br />
