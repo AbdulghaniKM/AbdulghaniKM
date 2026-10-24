@@ -1,11 +1,10 @@
 name: generate contribution snake
 
+# Manual-only until Actions billing is sorted; add back a schedule afterwards:
+#   schedule:
+#     - cron: "17 */12 * * *"
 on:
-  schedule:
-    - cron: "17 */12 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
